@@ -18,15 +18,15 @@ int main(){
     fread(b_read, sizeof(b_read), 1, fp);
     fread(c_read, sizeof(c_read), 1, fp);
     for(int i = 0; i < 3; i++){
-        printf("%d", a_read[i]);
+        printf("%d ", a_read[i]);
     }
     printf("\n");
     for(int i = 0; i < 3; i++){
-        printf("%c", b_read[i]);
+        printf("%c ", b_read[i]);
     }
     printf("\n");
     for(int i = 0; i < 3; i++){
-        printf("%f", c_read[i]);
+        printf("%f ", c_read[i]);
     }
     return 0;
 }

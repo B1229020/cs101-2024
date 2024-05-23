@@ -52,7 +52,7 @@ class ReadClass{
             }else{
                 cout << "Unable to open file" << endl;
             }
-            cout << Class_num << "class in main.cpp\n";
+            cout << Class_num << " class in main.cpp\n";
             for(int i = 0; i < Class_num; i++){
                 cout << "clas" << Classname[i] << endl;
             }

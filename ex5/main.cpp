@@ -31,8 +31,11 @@ class ReadClass{
                     if(m == 1){
                         if(c == '{'){
                             m = 0;
-                        }else{
+                        }else if(c != '"'){
                             Classname[Class_num-1] += c;
+                        }else{
+                            Class_num --;
+                            m = 0;
                         }
                     }
                     if(s[n] == c){

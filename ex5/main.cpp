@@ -29,7 +29,7 @@ class ReadClass{
                 char s[6] = "class";
                 while(file.get(c)){
                     if(m == 1){
-                        Classname[Class_num] += c;
+                        Classname[Class_num-1] += c;
                         if(c == '{'){
                             m = 0;
                         }

@@ -50,7 +50,7 @@ class ReadClass{
             }
             cout << Class_num << "class in main.cpp\n";
             for(int i = 0; i < Class_num; i++){
-                cout << "class " << Classname[i] << endl;
+                cout << "clas" << Classname[i] << endl;
             }
         }
 };
